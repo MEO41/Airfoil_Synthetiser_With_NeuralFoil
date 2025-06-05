@@ -53,7 +53,7 @@ CPU-only mode works but is ~30× slower.
 
 ## 📝 Citation / Credits
 
-- **NeuralFoil**: T. Flack & O. Stanford, 2024  
+- **NeuralFoil**: Peter Sharpe | GitHub repository | https://github.com/peterdsharpe/NeuralFoil
 - Original airfoil geometries collected from UIUC and AirfoilTools  
 - β-VAE formulation inspired by *Higgins et al., ICLR 2017*
 
