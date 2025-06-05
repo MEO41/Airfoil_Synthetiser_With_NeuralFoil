@@ -21,7 +21,7 @@ Quality is verified on-the-fly with **NeuralFoil**.
 **Hardware**: a single RTX 4090 trains the β-CVAE (~65k it/s, 40 mins, 200 epochs).  
 CPU-only mode works but is ~30× slower.
 
-![Outputs](https://github.com/MEO41/Synthetic_Airfoil_Generatorv2/blob/main/assets/example.png?raw=true)
+![Outputs](https://raw.githubusercontent.com/MEO41/Airfoil_Synthetiser_With_NeuralFoil/914d40d79efaf8e0e90cf74ec1ecea02a1547d31/assets/example.svg)
 
 ---
 
