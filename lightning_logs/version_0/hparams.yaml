@@ -1,0 +1,5 @@
+beta: 0.001
+cond_dim: 1652
+geo_dim: 200
+lam: 0.1
+latent_dim: 32
