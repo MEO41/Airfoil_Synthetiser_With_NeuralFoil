@@ -4,7 +4,7 @@
 A **research-grade yet runnable pipeline** that learns from 1,647 real airfoil geometries,  
 conditions on aerodynamic targets *(Re, α, C<sub>L</sub>, C<sub>D</sub>, C<sub>M</sub>, C<sub>L</sub>/C<sub>D</sub>)*, and generates brand-new 100-point `.dat` shapes.  
 Quality is verified on-the-fly with **NeuralFoil**.
-[!Pipeline](https://github.com/MEO41/Synthetic_Airfoil_Generatorv2/blob/main/assets/pipline.png?raw=true)
+![Pipeline](https://github.com/MEO41/Synthetic_Airfoil_Generatorv2/blob/main/assets/pipline.png?raw=true)
 | Stage                      | Notebook Cell              | What It Does |
 |---------------------------|----------------------------|--------------|
 | **1. Data Spine**         | `step-1-load-resample.ipynb` | Loads every `.dat`, resamples to 100 points, builds `df_geo.pkl`. |
@@ -21,7 +21,7 @@ Quality is verified on-the-fly with **NeuralFoil**.
 **Hardware**: a single RTX 4090 trains the β-CVAE (~65k it/s, 40 mins, 200 epochs).  
 CPU-only mode works but is ~30× slower.
 
-[!Outputs](https://github.com/MEO41/Synthetic_Airfoil_Generatorv2/blob/main/assets/example.png?raw=true)
+![Outputs](https://github.com/MEO41/Synthetic_Airfoil_Generatorv2/blob/main/assets/example.png?raw=true)
 
 ---
 
